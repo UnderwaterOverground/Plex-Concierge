@@ -16,7 +16,9 @@
 ## Overview
 This is a guide for how to create a media discovery and management chat interface by connecting Overseerr to ChatGPT's Custom GPT tools. You can use this yourself, share it with friends, or connect it to a chat application!
 
-![[demo-images/Demo-Mobile-Request.png]]
+<p align="center">
+  <img src="demo-images/Demo-Mobile-Request.png" alt="Mobile Request Demo" height="500">
+</p>
 
 ---
 
@@ -71,22 +73,28 @@ If you're looking for other chat-to-Plex tools, they exist! This is a new approa
     - **DALL•E Image Generation**: Off
     - **Code Interpreter & Data Analysis**: Off- 
 6. By this point, it should look something like this:
-	1. ![[demo-images/Tutorial-001.png]]
+<p align="center">
+  <img src="tutorial-images/Tutorial-001.png" alt="Tutorial Stage One" width="500">
+</p>
+
 7. Create a New Action:
     - **Authentication**: Choose "API Key". Retrieve the API key from Overseer's *Settings → General* tab.
     - **Schema**: Use the provided [overseerr-actions-schema.yml](../../raw/refs/heads/main/src/overseerr-actions-schema.yml).
         - ❗️ *Replace the server URL with your Overseerr URL.*
     - **Privacy Policy**: Add any link (required if sharing the GPT).
     - By this point, it should look something like this: 
-	    - ![[demo-images/Tutorial-002.png]]
-1. Hit the **'Update'** button in the top right.
-2. Adjust privacy settings as desired. Use a private link for sharing; avoid making this public.
-3. Done! Test and explore its features.
+<p align="center">
+  <img src="tutorial-images/Tutorial-002.png" alt="Tutorial Stage Two" width="500">
+</p>
+
+8. Hit the **'Update'** button in the top right.
+9. Adjust privacy settings as desired. Use a private link for sharing; avoid making this public.
+10. Done! Test and explore its features.
 
 ---
 
 ## Notes
-- **Parameter Workarounds**: Some unusual instructions were added in the schema, e.g., making 'seasons' required and defaulting it to 'all' for TV shows. Fixes issues with missing parameters.
+- **Parameter Workarounds**: Some unusual instructions were added in the schema, e.g., making 'seasons' required and defaulting it to 'all' for TV shows fixes issues with missing parameters.
 - **Search Behavior**: Initial search queries may fail before retrying correctly due to URL encoding errors. This does not impact functionality.
 - **Debugging**: Use the GPT editor's testing conversations to inspect request/response payloads sent to the Overseerr API.
 - **Custom GPT Limitations**: GPTs can have up to 30 actions. Simplify schemas for complex tasks. This guide uses only 2 actions (*search* and *request*).
@@ -134,22 +142,32 @@ As a bit of background for the steps I took to do this, in case you were curious
 ## Screenshots
 
 #### Adding a show and seeing download progress
-![[demo-images/Demo-Progress.png]]
+<p align="center">
+  <img src="demo-images/Demo-Progress.png" alt="Demo Progress" width="500">
+</p>
 
 
 #### Adding a show that already exists
-![[demo-images/Demo-Already-Exists.png]]
+<p align="center">
+  <img src="demo-images/Demo-Already-Exists.png" alt="Demo Already Exists" width="500">
+</p>
 
 
 #### Adding 4K Content
-![[demo-images/Demo-4K-Content.png]]
+<p align="center">
+  <img src="demo-images/Demo-4K-Content.png" alt="Demo 4K Content" width="500">
+</p>
 
 
 #### Checking Availability on Plex
-![[demo-images/Demo-Availability-Check.png]]
+<p align="center">
+  <img src="demo-images/Demo-Availability-Check.png" alt="Demo Availability Check" width="500">
+</p>
 
 
 #### Querying Download Progress
-![[demo-images/Demo-Estimated-Time.png]]
+<p align="center">
+  <img src="demo-images/Demo-Estimated-Time.png" alt="Demo Estimated Time" width="500">
+</p>
 
 ---
