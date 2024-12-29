@@ -104,7 +104,7 @@ If you're looking for other chat-to-Plex tools, they exist! This is a new approa
 ## Explanation
 
 As a bit of background for the steps I took to do this, in case you were curious to try it out yourself from scratch for this or another use case:
-1. I read about Custom GPTs using [(OpenAI's guide)](https://help.openai.com/en/articles/8554397-creating-a-gpt)
+1. I read about Custom GPTs using [OpenAI's Guide](https://help.openai.com/en/articles/8554397-creating-a-gpt)
 2. I looked at [Overseerr's API Documentation](https://api-docs.overseerr.dev/) and checked that it had the sort of functionality I wanted to use (in this case, I wanted to search for movie and tv content, and make requests to add it to Plex)
 3. I read about [GPT Actions](https://platform.openai.com/docs/actions/introduction)
 4. I read the GPT Actions [Getting Started Guide](https://platform.openai.com/docs/actions/getting-started) 
