@@ -61,7 +61,7 @@ If you're looking for other chat-to-Plex tools, they exist! This is a new approa
 ## Guide
 1. Go to the **[My GPTs](https://chatgpt.com/gpts/mine)** section of the ChatGPT website and click "Create a GPT". *(GPT Plus Subscription required)*
 2. Click on the 'Configure'. Provide a name and description. Add an avatar if desired.
-3. For 'Instructions', use the provided [gpt-instructions.md](raw/refs/heads/main/src/gpt-instructions.md) file (use the raw version with markdown formatting).
+3. For 'Instructions', use the provided [gpt-instructions.md](../../raw/refs/heads/main/src/gpt-instructions.md) file (use the raw version with markdown formatting).
 4. *(Optional)* Add conversation starters, such as:
     - "Request a new show or movie"
     - "Find recommendations for popular movies and shows"
@@ -74,7 +74,7 @@ If you're looking for other chat-to-Plex tools, they exist! This is a new approa
 	1. ![[demo-images/Tutorial-001.png]]
 7. Create a New Action:
     - **Authentication**: Choose "API Key". Retrieve the API key from Overseer's *Settings → General* tab.
-    - **Schema**: Use the provided [overseerr-actions-schema.yml](raw/refs/heads/main/src/overseerr-actions-schema.yml).
+    - **Schema**: Use the provided [overseerr-actions-schema.yml](../../raw/refs/heads/main/src/overseerr-actions-schema.yml).
         - ❗️ *Replace the server URL with your Overseerr URL.*
     - **Privacy Policy**: Add any link (required if sharing the GPT).
     - By this point, it should look something like this: 
